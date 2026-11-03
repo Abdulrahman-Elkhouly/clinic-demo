@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Clinic voice agent demo</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 640px; margin: 0 auto; padding: 32px 16px 120px; color: #1a1a1a; line-height: 1.5; }
+    h1 { font-size: 26px; margin: 0 0 16px; }
+    h2 { font-size: 18px; margin: 28px 0 8px; }
+    .notice { background: #fff4e5; border: 1px solid #f0c48a; border-radius: 8px; padding: 12px 16px; }
+    .notice p { margin: 0; }
+    .notice p + p { margin-top: 8px; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ddd; padding: 8px 10px; text-align: start; }
+    th { background: #f5f5f5; }
+    td bdi { white-space: nowrap; }
+    ul, ol { margin: 8px 0; padding-inline-start: 24px; }
+    hr { border: 0; border-top: 1px solid #ddd; margin: 36px 0; }
+  </style>
+</head>
+<body>
+  <section lang="ar" dir="rtl">
+    <h1>تجربة موظف الاستقبال الصوتي</h1>
+    <div class="notice">
+      <p><strong>هذه نسخة تجريبية وليست عيادة حقيقية.</strong> مركز ازغوى الطبي وأطباؤه ومواعيده كلها خيالية، ولن يتم حجز أي موعد حقيقي.</p>
+      <p><strong>لا تستخدم بياناتك الحقيقية ولا تعتمد على المعلومات الطبية.</strong> استخدم بيانات المريض التجريبية أدناه أو بيانات من خيالك.</p>
+    </div>
+
+    <h2>طريقة البدء</h2>
+    <ol>
+      <li>اضغط على الزر في زاوية الصفحة.</li>
+      <li>اسمح باستخدام الميكروفون.</li>
+      <li>انتظر حتى 20 ثانية إذا كان الموظف الصوتي غير نشط، ثم تحدث بالعربية أو الإنجليزية.</li>
+    </ol>
+
+    <h2>جرّب أن</h2>
+    <ul>
+      <li>تسأل عن ساعات العمل أو الأسعار أو التخصصات.</li>
+      <li>تحجز موعدًا أو تعدّله باستخدام مريض تجريبي.</li>
+      <li>تسجّل مريضًا جديدًا ببيانات من خيالك.</li>
+    </ul>
+
+    <h2>مرضى تجريبيون</h2>
+    <table>
+      <tr><th>الاسم</th><th>رقم الملف</th></tr>
+      <tr><td><bdi>Fatima Al-Naimi</bdi> (فاطمة النعيمي)</td><td><bdi>938100</bdi></td></tr>
+      <tr><td><bdi>Aisha Rahman</bdi> (عائشة رحمن)</td><td><bdi>460485</bdi></td></tr>
+    </table>
+
+    <h2>بيانات مشتركة</h2>
+    <p>كل المختبرين يستخدمون البيانات نفسها، لذلك قد تظهر لك حجوزات غيرك. وتعود البيانات إلى وضعها الأصلي عند إعادة تشغيل الموظف.</p>
+  </section>
+
+  <hr>
+
+  <section>
+    <h1>Voice receptionist demo</h1>
+    <div class="notice">
+      <p><strong>This is a demo, not a real clinic.</strong> Izghawa Medical Center, its doctors and its appointments are fictional, and no real appointment will be made.</p>
+      <p><strong>Don't use your real details or rely on any medical information.</strong> Use a test patient below, or make details up.</p>
+    </div>
+
+    <h2>How to start</h2>
+    <ol>
+      <li>Click the button in the corner of the page.</li>
+      <li>Allow microphone access.</li>
+      <li>Wait up to 20 seconds if the agent is asleep, then speak in Arabic or English.</li>
+    </ol>
+
+    <h2>Things to try</h2>
+    <ul>
+      <li>Ask about opening hours, prices or specialties.</li>
+      <li>Book or change an appointment as a test patient.</li>
+      <li>Register as a new patient with made-up details.</li>
+    </ul>
+
+    <h2>Test patients</h2>
+    <table>
+      <tr><th>Name</th><th>File number</th></tr>
+      <tr><td>Fatima Al-Naimi</td><td>938100</td></tr>
+      <tr><td>Aisha Rahman</td><td>460485</td></tr>
+    </table>
+
+    <h2>Shared data</h2>
+    <p>All testers use the same data, so you may see the effects of other people's bookings. It resets when the agent restarts.</p>
+  </section>
+
+  <script
+    src="https://cloud.livekit.io/embed-popup.js"
+    data-lk-agent="CA_GUXWaENopDqJ"
+    data-lk-color="#002CF2"
+  ></script>
+</body>
+</html>
